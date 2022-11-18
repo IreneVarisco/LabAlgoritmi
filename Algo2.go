@@ -12,7 +12,7 @@ func main() {
 	fmt.Scan(&a)
 	fmt.Scan(&b)
 	fmt.Scan(&c)
-
+	//calcolo le 2 soluzioni per ax^2+bx+c
 	isco1 = (-b + math.Sqrt(math.Pow(b, 2)-(4*a*c))) / (2 * a)
 	isco2 = (-b - math.Sqrt(math.Pow(b, 2)-(4*a*c))) / (2 * a)
 
