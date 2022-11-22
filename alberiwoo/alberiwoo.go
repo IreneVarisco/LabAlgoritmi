@@ -16,7 +16,7 @@ type bitree struct {
 
 func main() {
 	var isco []int
-	//creo un array co numeri random
+	//creo un array con all'interno numeri random
 	for i := 0; i < 5; i++ {
 		isco = append(isco, rand.Intn(100))
 	}
