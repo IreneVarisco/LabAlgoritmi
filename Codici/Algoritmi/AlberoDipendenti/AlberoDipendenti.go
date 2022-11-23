@@ -86,6 +86,7 @@ func supervisore(d *Dipendente, radice *Dipendente) *Dipendente {
 	return nil
 }
 
+// funzione che stampa tutti gli impiegati gerarchicamente superiori al dipendente d
 func stampaImpiegatiSopra(d *Dipendente, radice *Dipendente) {
 
 	thasup := supervisore(d, radice)
